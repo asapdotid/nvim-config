@@ -46,6 +46,49 @@ if Env.yanky then
 end
 
 -- UI plugins
--- local ui = "plugins.__ui__."
+local ui = "plugins.__ui__."
+
+if Env.nvim_tree then
+  table.insert(plugins, require(ui .. "nvim_tree"))
+end
+if Env.dressing then
+  table.insert(plugins, require(ui .. "dressing"))
+end
+if Env.noice then
+  table.insert(plugins, require(ui .. "noice"))
+end
+if Env.neoscroll then
+  table.insert(plugins, require(ui .. "neoscroll"))
+end
+if Env.quite then
+  table.insert(plugins, require(ui .. "quit"))
+end
+if Env.fold then
+  table.insert(plugins, require(ui .. "fold"))
+end
+if Env.highlighturl then
+  table.insert(plugins, require(ui .. "highlighturl"))
+end
+if Env.indent_blankline then
+  table.insert(plugins, require(ui .. "indent_blankline"))
+end
+if Env.flash then
+  table.insert(plugins, require(ui .. "flash"))
+end
+if Env.visual_multi then
+  table.insert(plugins, require(ui .. "visual_multi"))
+end
+if Env.bookmarks then
+  table.insert(plugins, require(ui .. "bookmarks"))
+end
+if Env.todo_comments then
+  table.insert(plugins, require(ui .. "todo_comments"))
+end
+if Env.trouble then
+  table.insert(plugins, require(ui .. "trouble"))
+end
+if Env.undotree then
+  table.insert(plugins, require(ui .. "undotree"))
+end
 
 return plugins

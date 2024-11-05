@@ -6,6 +6,7 @@ local Utils = require "utils"
 local Env = require "configs.env"
 local hl = require "configs.hl"
 local icons = require "configs.icons"
+local changed_themes = require "configs.themes"
 
 ---@class ChadrcConfig
 local M = {}
@@ -15,6 +16,10 @@ M.base46 = {
   transparency = Env.transparency,
   hl_add = hl.add,
   hl_override = hl.override,
+  changed_themes = {
+    onedark = changed_themes[Env.theme],
+    manjaro = changed_themes[Env.theme],
+  },
 }
 
 M.nvdash = {
