@@ -91,4 +91,54 @@ if Env.undotree then
   table.insert(plugins, require(ui .. "undotree"))
 end
 
+-- Misc plugins
+local misc = "plugins.__misc__."
+
+if Env.comment then
+  table.insert(plugins, require(misc .. "comment"))
+end
+if Env.editorconfig then
+  table.insert(plugins, require(misc .. "editorconfig"))
+end
+if Env.boole then
+  table.insert(plugins, require(misc .. "boole"))
+end
+if Env.case_change then
+  table.insert(plugins, require(misc .. "case_change"))
+end
+if Env.move then
+  table.insert(plugins, require(misc .. "move"))
+end
+if Env.duplicate then
+  table.insert(plugins, require(misc .. "duplicate"))
+end
+if Env.dotenv then
+  table.insert(plugins, require(misc .. "dotenv"))
+end
+if Env.illuminate then
+  table.insert(plugins, require(misc .. "illuminate"))
+end
+if Env.surround then
+  table.insert(plugins, require(misc .. "surround"))
+end
+if Env.spectre then
+  table.insert(plugins, require(misc .. "spectre"))
+end
+if Env.vim_tmux then
+  table.insert(plugins, require(misc .. "vim_tmux"))
+end
+if Env.vim_maximizer then
+  table.insert(plugins, require(misc .. "vim_maximizer"))
+end
+if Env.session then
+  table.insert(plugins, require(misc .. "session"))
+end
+if Env.rename then
+  table.insert(plugins, require(misc .. "rename"))
+end
+if Env.silicon then
+  table.insert(plugins, require(misc .. "silicon"))
+end
+
+
 return plugins

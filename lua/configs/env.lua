@@ -41,7 +41,7 @@ M.undotree = __Env.env("PLUGIN_UI_UNDOTREE", "boolean")
 -- Misc activation plugins
 M.comment = __Env.env("PLUGIN_MISC_COMMENT", "boolean")
 M.editorconfig = __Env.env("PLUGIN_MISC_EDITORCONFIG", "boolean")
-M.booole = __Env.env("PLUGIN_MISC_BOOLE", "boolean")
+M.boole = __Env.env("PLUGIN_MISC_BOOLE", "boolean")
 M.case_change = __Env.env("PLUGIN_MISC_CASE_CHANGE", "boolean")
 M.move = __Env.env("PLUGIN_MISC_MOVE", "boolean")
 M.duplicate = __Env.env("PLUGIN_MISC_DUPLICATE", "boolean")
