@@ -1,12 +1,12 @@
 return {
-   {
-      "mbbill/undotree",
-      event = "VeryLazy",
-      keys = function()
-        local __Utils = require "utils"
-        local map = vim.keymap.set
+  {
+    "mbbill/undotree",
+    event = "VeryLazy",
+    keys = function()
+      local cmd = require("utils").cmd
+      local map = vim.keymap.set
 
-        map("n", "<leader><F5>", __Utils.cmd "UndotreeToggle", { desc = "undotree" })
-      end,
-    }
-  }
+      map("n", "<leader><F5>", cmd "UndotreeToggle", { desc = "undotree" })
+    end,
+  },
+}

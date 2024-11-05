@@ -12,7 +12,7 @@ local changed_themes = require "configs.themes"
 local M = {}
 
 M.base46 = {
-	theme = Env.theme,
+  theme = Env.theme,
   transparency = Env.transparency,
   hl_add = hl.add,
   hl_override = hl.override,

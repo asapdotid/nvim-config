@@ -1,4 +1,4 @@
-return  {
+return {
   {
     "kevinhwang91/nvim-ufo",
     event = "BufReadPost",

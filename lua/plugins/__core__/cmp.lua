@@ -89,5 +89,5 @@ return {
         config.window.documentation.border = border "CmpBorder" -- default border "CmpDocBorder"
       end
     end,
-  }
+  },
 }

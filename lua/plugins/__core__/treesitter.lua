@@ -1,5 +1,5 @@
 return {
- {
+  {
     "nvim-treesitter/nvim-treesitter",
     event = { "BufReadPre", "BufNewFile" },
     dependencies = {
@@ -137,5 +137,5 @@ return {
       }
       require("nvim-treesitter.configs").setup(options)
     end,
-  }
+  },
 }

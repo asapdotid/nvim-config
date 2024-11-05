@@ -33,16 +33,16 @@ if Env.mason_conform then
   table.insert(plugins, require(core .. "mason_conform"))
 end
 if Env.telescope then
-    table.insert(plugins, require(core .. "telescope"))
+  table.insert(plugins, require(core .. "telescope"))
 end
 if Env.lspsaga then
-    table.insert(plugins, require(core .. "lspsaga"))
+  table.insert(plugins, require(core .. "lspsaga"))
 end
 if Env.toggleterm then
-    table.insert(plugins, require(core .. "toggleterm"))
+  table.insert(plugins, require(core .. "toggleterm"))
 end
 if Env.yanky then
-    table.insert(plugins, require(core .. "yanky"))
+  table.insert(plugins, require(core .. "yanky"))
 end
 
 -- UI plugins
@@ -139,6 +139,5 @@ end
 if Env.silicon then
   table.insert(plugins, require(misc .. "silicon"))
 end
-
 
 return plugins

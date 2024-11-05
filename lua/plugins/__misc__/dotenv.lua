@@ -1,6 +1,6 @@
 return {
-   {
-      "tpope/vim-dotenv",
-      event = { "VeryLazy" },
-    }
-  }
+  {
+    "tpope/vim-dotenv",
+    event = { "VeryLazy" },
+  },
+}
